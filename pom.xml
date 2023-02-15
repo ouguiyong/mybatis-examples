@@ -9,7 +9,7 @@
         <version>2.0.1.RELEASE</version>
     </parent>
     <groupId>com.blog4java</groupId>
-    <artifactId>mybatis-book</artifactId>
+    <artifactId>mybatis-examples</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -26,8 +26,6 @@
         <module>mybatis-chapter10</module>
         <module>mybatis-chapter11</module>
         <module>mybatis-chapter12</module>
-
-
         <module>mybatis-plugin</module>
 
     </modules>
