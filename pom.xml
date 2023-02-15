@@ -92,12 +92,6 @@
             <version>3.5.11</version>
         </dependency>
 
-        <!--<dependency>
-            <groupId>com.blog4java</groupId>
-            <artifactId>mybatis-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>-->
-
         <dependency>
             <groupId>commons-dbcp</groupId>
             <artifactId>commons-dbcp</artifactId>
@@ -128,5 +122,15 @@
             <version>1.9.3</version>
         </dependency>
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.blog4java</groupId>
+                <artifactId>mybatis-common</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

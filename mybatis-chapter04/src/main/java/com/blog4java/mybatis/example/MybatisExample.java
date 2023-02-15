@@ -2,12 +2,13 @@ package com.blog4java.mybatis.example;
 
 import com.alibaba.fastjson.JSON;
 import com.blog4java.common.DbUtils;
-import com.blog4java.common.IOUtils;
-import com.blog4java.mybatis.example.config.MyTestTypeHandler;
 import com.blog4java.mybatis.example.entity.UserEntity;
 import com.blog4java.mybatis.example.mapper.UserMapper;
 import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.*;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.apache.ibatis.session.SqlSessionManager;
 import org.junit.Before;
 import org.junit.Test;
 
