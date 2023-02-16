@@ -13,6 +13,13 @@
     <artifactId>mybatis-chapter04</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.blog4java</groupId>
+            <artifactId>mybatis-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <build>
     <resources>
         <resource>

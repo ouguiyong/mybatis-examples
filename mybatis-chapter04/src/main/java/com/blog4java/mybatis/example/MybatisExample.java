@@ -34,7 +34,6 @@ public class MybatisExample {
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(configuration);*/
         // 通过SqlSessionFactoryBuilder的build()方法创建SqlSessionFactory实例
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-
         // 调用openSession()方法创建SqlSession实例
         SqlSession sqlSession = sqlSessionFactory.openSession();
         // 获取UserMapper代理对象

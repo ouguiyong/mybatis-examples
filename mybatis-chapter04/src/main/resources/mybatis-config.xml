@@ -10,6 +10,11 @@
 		<setting name="logImpl" value="LOG4J"/>
 	</settings>
 
+	<!--自定义typeHandler-->
+	<typeHandlers>
+		<typeHandler handler="com.blog4java.mybatis.example.config.MyTestTypeHandler"></typeHandler>
+	</typeHandlers>
+
 	<environments default="dev" >
 		<environment id="dev">
 			<transactionManager type="JDBC">
@@ -43,4 +48,6 @@
 		<package name="com.blog4java.mybatis.com.blog4java.mybatis.example.mapper"/>
 		-->
 	</mappers>
+	<!--增加自定义的typeHandler-->
+
 </configuration>
