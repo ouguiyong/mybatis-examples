@@ -27,7 +27,6 @@
         <module>mybatis-chapter11</module>
         <module>mybatis-chapter12</module>
         <module>mybatis-plugin</module>
-
     </modules>
     <build>
         <resources>
@@ -129,6 +128,11 @@
                 <groupId>com.blog4java</groupId>
                 <artifactId>mybatis-common</artifactId>
                 <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis.scripting</groupId>
+                <artifactId>mybatis-velocity</artifactId>
+                <version>2.1.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
